@@ -1,0 +1,19 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.devnet]
+counter = "Fg6PaFpoGXkYsidMpWxTWqk1zXg7Z4jzq7N4Qx6gsJx"
+
+[programs.localnet]
+counter = "Fg6PaFpoGXkYsidMpWxTWqk1zXg7Z4jzq7N4Qx6gsJx"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npm run test"

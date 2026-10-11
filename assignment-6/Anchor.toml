@@ -1,0 +1,16 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.devnet]
+profile = "Fg6PaFpoGXkYsidMpWxTWqk1zXg7Z4jzq7N4Qx6gsJx"
+
+[programs.localnet]
+profile = "Fg6PaFpoGXkYsidMpWxTWqk1zXg7Z4jzq7N4Qx6gsJx"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npm run test"
