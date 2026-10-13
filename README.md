@@ -38,7 +38,6 @@ Typical progression:
 - Week 4 - first Solana program
 - Week 5 - Anchor framework and counter program
 - Week 6 - accounts, PDAs, and on-chain profile architecture
-- Week 7 - SPL tokens and token extensions
 
 The later assignments continue the same course direction: building, testing, deploying, and documenting Web3 applications on Solana.
 
